@@ -1,0 +1,186 @@
+ body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark grey text */
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #007BFF; /* Example accent color */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555; /* Slightly darker grey */
+            font-weight: bold;
+        }
+
+        /* Hero section */
+        .hero {
+            background: url('hero-image.jpg') center/cover no-repeat; /* Replace with your image */
+            color: #fff;
+            text-align: left;
+            padding: 100px 0;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Services section */
+        .services {
+            padding: 50px 0;
+        }
+
+        .service {
+            display: flex;
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .service img {
+            width: 200px; /* Adjust width as needed */
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .service h2 {
+                 margin-bottom: 10px;
+        }
+
+        /* Contact section */
+        .contact {
+            background-color: #4fc3f7; /* Example color */
+            padding: 50px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .map {
+            width: 40%;
+        }
+
+        .contact-form {
+            width: 40%;
+            text-align: left;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer nav ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        footer nav li {
+          color: #f1f1f1;
+          text-decoration: none;
+          margin-left: 5px;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .hero {
+                text-align: center;
+            }
+
+            .contact-container {
+                flex-direction: column;
+            }
+
+            .map,
+            .contact-form {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+    
